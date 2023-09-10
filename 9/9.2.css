@@ -1,0 +1,43 @@
+body {
+    position: relative;
+    color: white;
+}
+.main {
+    background-color: red;
+    position: relative;
+    margin: 400px;
+    
+}
+.section1 {
+    width: 200px;
+    height: 100px;
+    display: block;
+    background-color: black;
+    float: left;
+    padding-left: 10px;
+    
+}
+.section2 {
+    width: 200px;
+    height: 100px;
+    display: inline;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+}
+.section3 {
+    width: 200px;
+    height: 100px;
+    display: inline;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+}
+.section4 {
+    width: 200px;
+    height: 100px;
+    display: inline;
+    background-color: black;
+    float: left;
+    margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.first{
+    border:2px solid black;
+    height: 300px;
+}
+header{
+    background-color: orange;
+    height: 35px;
+    text-align: center;
+}
+.sid{
+    background-color: green;
+    height: 200px;
+    padding: 5px;
+    margin-left: 25% ;
+    width: 120px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+main{
+    background-color: purple;
+    height: 200px;
+    padding: 5px;
+    margin-left: 35% ;
+    margin-right: 25%;
+    margin-bottom: 5px;
+    margin-top: -215px;
+}
+footer{
+    background-color: blue;
+    height: 35px;
+    text-align: center;
+}
+header,
+footer{
+    margin-left: 25% ;
+    margin-right: 25%;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+

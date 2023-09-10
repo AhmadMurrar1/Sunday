@@ -1,0 +1,18 @@
+body {
+    background-color: red;
+    font-size: 40px;
+}
+.sid {
+    display: none;
+}
+
+.footer {
+    display: none;
+}
+.suka {
+    width: 1000px;
+    height: 200px;
+    background-color: green;
+    margin: auto;
+}
+
