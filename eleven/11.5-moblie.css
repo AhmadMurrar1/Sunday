@@ -1,0 +1,22 @@
+body {
+    background-color: red;
+}
+nav {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Links {
+    display: flex;
+    width: 30%;
+    height: 60%;
+    flex-direction: column;
+    
+}
+a {
+    font-size: 6px;
+    text-decoration: none;
+    color: white;
+}

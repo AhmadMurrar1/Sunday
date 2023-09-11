@@ -1,0 +1,18 @@
+nav {
+    width: 100vw;
+    height: 10vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+}
+#Links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+a {
+    font-size: 6px;
+    text-decoration: none;
+    color: white;
+}

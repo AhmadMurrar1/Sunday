@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    font-size: 10px;
+    display: flex;
+    height: 80vh;
+    width: 70vw;
+    align-items: left;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#one {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    color: white;
+}
+#two {
+    width: 15px;
+    height: 15px;
+    background-color: green;
+}
+#three {
+    width: 15px;
+    height: 15px;
+    background-color: yellow;
+}
