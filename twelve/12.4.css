@@ -1,0 +1,58 @@
+.container {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(103, 98, 98);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.container::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    content: "";
+    left: 0;
+    display: block;
+    top: 0;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+.container::before {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    
+    content: "";
+    right: 0;
+    display: block;
+    top: 0;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+}
+/* span */
+#box::after {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    
+    content: "";
+    right: 0;
+    display: block;
+    bottom: 0;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+}
+#box::before {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    
+    content: "";
+    left: 0;
+    display: block;
+    bottom: 0;
+    border-bottom: 5px solid black;
+    border-left: 5px solid black;
+}
