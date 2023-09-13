@@ -8,7 +8,7 @@ body {
 }
 .cool .cool-text {
     width: 130px;
-    position: absolute;
+
     z-index: 2;
     color: white;
     background-color: aqua;
